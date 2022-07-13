@@ -14,14 +14,6 @@
                 <div class="col-2">
                     <img class="w-100 py-3 py-md-5" src="image/order-page-img/order-page-logo.png">
                 </div>
-                <div class="shopping-cart-2">
-                    <a href="detail-page.html">
-                        <img src="image/order-page-img/shopping-cart-color.svg" class="w-100 me-auto">
-                        <div class="shopping-cart-number-2 d-flex justify-content-center align-items-center">
-                            <p class="fs-5 mb-0">22</p>
-                        </div>
-                    </a>
-                </div>
             </div>
         </div>
     </div>
@@ -82,8 +74,7 @@
         </nav>
     </div>
     <div class="bg-light">
-        <div class="container py-2">
-            <div>
+        <div class="container py-2 pb-5">
                 <div class="order-page-title d-flex align-items-center py-sm-3" id="scrollspyHeading1">
                     <p class="title-text fs-2 mb-0 me-2 me-md-4">推薦</p>
                     <p class="subtitle-text fs-4 mb-0 text-secondary">Recommend</p>
@@ -401,15 +392,22 @@
                             </div>
                         </a>
                     </div>
-                </div>
-            </div>
+                </div> 
             <div class="order-space"></div>
-        </div>
-        <div class="bottom-btn d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-            <a class="bottom-btn-1 d-flex flex-column justify-content-center align-items-center mb-2 mb-md-3">
+        </div> 
+    </div>
+    <div class="container bottom-btn">
+        <div class="d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <a class="bottom-btn-1 d-flex justify-content-center align-items-center mb-2 mb-md-3">
                 <p class="fs-3 mb-0 py-3 py-md-4 fw-bold lh-sm">查看購物車</p>
+                <div class="shopping-cart d-flex justify-content-center align-items-center">
+                    <img src="image/order-page-img/shopping-cart.svg" class="">
+                    <div class="shopping-cart-number d-flex justify-content-center align-items-center">
+                        <p class="fs-5 mb-0">22</p>
+                    </div>
+                </div>
             </a>
-        </div>
+        </div>  
     </div>
 
     <!--餐點調整-->
@@ -994,27 +992,26 @@
         </div>
     </div>
     <!--優惠碼-->
-    <div class="modal fade coupon-popup" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content px-md-3">
-            <div class="modal-header justify-content-center my-md-3">
-              <p class="modal-title fs-3 fw-bold" id="exampleModalLabel">請掃描或輸入優惠碼<p>
+    <div class="modal fade phone-coupon-popup" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen d-flex justify-content-center align-items-center">
+            <div class="bg-white w-100 h-100">
+                <div class="modal-content d-flex align-items-center justify-content-center">
+                    <p class="modal-title fs-3 fw-bold" id="exampleModalLabel">請掃描或輸入優惠碼<p>
+                    <div class="input-group px-3 mb-3">
+                        <input type="text" style:"text-align:center" class="form-control fs-3 text-secondary p-3" placeholder="輸入或掃描" aria-label="輸入或掃描" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center w-100 px-3">
+                        <button type="button" class="popup-cancel" data-bs-dismiss="modal">
+                            <p class="fs-3 mb-0 text-secondary py-2">取消</p>
+                        </button>
+                        <button type="button" class="popup-enter" onclick="location.href=''">
+                            <p class="fs-3 mb-0 py-2">確認</p>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body py-0 mb-2">
-              <div class="input-group">
-                  <input type="text" style:"text-align:center" class="form-control fs-3 text-secondary p-3" placeholder="輸入或掃描" aria-label="輸入或掃描" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="modal-footer flex-row justify-content-between align-items-center mb-3">
-              <button type="button" class="popup-cancel" data-bs-dismiss="modal">
-                  <p class="fs-3 mb-0 text-secondary py-2">取消</p>
-              </button>
-              <button type="button" class="popup-enter" onclick="location.href=''">
-                  <p class="fs-3 mb-0 py-2">確認</p>
-              </button>
-            </div>
-          </div>
         </div>
+    </div>
 </div>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
