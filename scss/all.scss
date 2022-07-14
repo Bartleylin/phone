@@ -1337,11 +1337,27 @@ html, body {
 
 
 .phone-shopping-cart-number{
-    background-color: #EB5B52;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    letter-spacing: -1px;
+    @media (min-width: 315px){
+        background-color: #EB5B52;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        letter-spacing: -1px;
+    }
+    @media (min-width: 992px){
+        background-color: #EB5B52;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        letter-spacing: -1px;
+    }
+    @media (min-width: 1200px){
+        background-color: #EB5B52;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        letter-spacing: -1px;
+    }
 }
 
 .phone-coupon-popup{
