@@ -1313,7 +1313,6 @@ html, body {
     color: white;
 }
 .bottom-btn-1{
-    @media (min-width: 315px){
         position: fixed;
         bottom: 0;
         display: block;
@@ -1322,24 +1321,27 @@ html, body {
         border-radius: 6px;
         text-decoration: none;
         width: calc(84% - 1.5rem);
-    }
 }
-.bottom-btn-1 img{
-    width: 40%;
+
+.bottom-btn-2{
+    position: fixed;
+    bottom: 0;
+    display: block;
+    color: white;
+    background-color: #D0D0D0;
+    border-radius: 6px;
+    text-decoration: none;
+    width: calc(84% - 1.5rem);
 }
 
 
-.bottom-btn-1 .shopping-cart-number{
-    @media (min-width: 315px){
-        position: absolute;
-        background-color: #EB5B52;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        top: -8px;
-        right: 8px;
-        letter-spacing: -1px;
-    }
+
+.phone-shopping-cart-number{
+    background-color: #EB5B52;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    letter-spacing: -1px;
 }
 
 .phone-coupon-popup{
