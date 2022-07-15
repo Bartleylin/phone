@@ -12345,6 +12345,30 @@ html, body {
   }
 }
 
+@media (min-width: 576px) {
+  .customization-img img {
+    width: 35%;
+  }
+}
+
+@media (min-width: 768px) {
+  .customization-img img {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .customization-img img {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .customization-img img {
+    width: 25%;
+  }
+}
+
 .customization-gray {
   background-color: #F5F5F4;
 }
