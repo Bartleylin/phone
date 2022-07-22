@@ -692,7 +692,7 @@ html, body {
     -webkit-line-clamp: 2;  // 控制多行的行數
     -webkit-box-orient: vertical;
 }
-.detail-summary button{
+.detail-summary a{
     @media (min-width: 315px){
         background-color: white;
         border: none;

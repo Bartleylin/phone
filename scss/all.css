@@ -12615,7 +12615,7 @@ html, body {
 }
 
 @media (min-width: 315px) {
-  .detail-summary button {
+  .detail-summary a {
     background-color: white;
     border: none;
     width: 26px;
@@ -12624,7 +12624,7 @@ html, body {
 }
 
 @media (min-width: 768px) {
-  .detail-summary button {
+  .detail-summary a {
     background-color: white;
     border: none;
     width: 40px;
@@ -12633,7 +12633,7 @@ html, body {
 }
 
 @media (min-width: 1080px) {
-  .detail-summary button {
+  .detail-summary a {
     background-color: white;
     border: none;
     width: 48px;
